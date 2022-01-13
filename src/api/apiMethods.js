@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const basePath = "http://localhost:8080/api/board"
+const basePath = "/api/board"
 
 export const getBoard = () => {
     return axios.get(basePath);
